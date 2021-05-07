@@ -1,32 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+import { Wrapper } from "@wfp/ui";
 // Import all stylesheets
 import '@wfp/ui/src/globals/scss/styles.scss';
 
-import Login from './login';
+import LoginForm from './LoginForm';
 import Courses from '../private/courses';
+import MainBar from '../../components/mainbar/MainBar'
 
+const Main = () => {
 
-export default class Main extends React.Component {
+    const [isLogged, setIsLogged] = useState(false);
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            isLogged: false
-        }
-        this.handleLogin = this.handleLogin.bind(this);
-    }
+    let content = isLogged === false ? <LoginForm loginHandler={() => { setIsLogged(true) }} /> : <Courses />
 
-    handleLogin() {
-        this.setState({ isLogged: true });
-    }
-
-    render() {
-        let content = this.state.isLogged === false ? <Login loginHandler={this.handleLogin} /> : <Courses />
-        return (
-            <div class="wfp--wrapper wfp--wrapper--width-lg wfp--wrapper--spacing-md">
-                { content }
+    return (
+        <>
+            <MainBar/>
+            <div className={'edufami--main__wrapper'}>
+                {content}
             </div>
-        );
-    }
+        </>
+    );
+
 }
+
+export default Main;

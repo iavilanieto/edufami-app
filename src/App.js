@@ -3,12 +3,11 @@ import React from 'react';
 // Import all stylesheets
 import '@wfp/ui/src/globals/scss/styles.scss';
 
-import NavMain from './comp/nav-main';
-import NavSecondary from './comp/nav-secondary';
-import NavFooter from './comp/nav-footer';
+import NavMain from './site/template/NavMain';
+import NavSecondary from './site/template/NavSecondary';
+import NavFooter from './site/template/NavFooter';
 
-import Courses from './site/private/courses';
-import Main from './site/public/main';
+import Main from './site/public/Main';
 
 import './App.css';
 
@@ -16,10 +15,11 @@ function App() {
     return (
         <div class="wfp--theme-light">
             <div>
-                <NavMain/>
+                {/*<NavMain/>*/}
                 {/*<NavSecondary/>*/}
                 <Main/>
-                <NavFooter/>
+                {/*<NavFooter/>*/}
+                
             </div>
         </div>
     );

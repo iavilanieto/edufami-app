@@ -1,0 +1,352 @@
+.edufami--main__wrapper {
+    background: #92A7BA;
+}
+
+.edufami-info-card__box {
+    box-shadow: 0 1px 8px rgb(0 0 0 / 15%);
+}
+
+.edufami-info-card__image {
+    box-shadow: 0 1px 8px rgb(0 0 0 / 15%);
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: 0;
+}
+
+.edufami-info-card__info {
+    padding: 1rem;
+}
+
+.edufami-info-card__info__metadata {
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.edufami-info-card__info__title {
+    margin: 0;
+}
+
+.edufami-info-card__info__subtitle {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.edufami-info-card__info__button {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.edufami--title__list {
+    height: 2rem;
+    padding: 2rem 0.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.edufami--course__box,
+.edufami--course-unit-item__box,
+.edufami--course-unit-list__title,
+.edufami--main-nav__box {
+    cursor: pointer;
+}
+
+.edufami--course__box {
+    height: 11rem;
+    margin: 2rem 0.5rem;
+    border-radius: 4.5rem;
+    -moz-border-radius: 4.5rem;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.edufami--course__background {
+    width: 100%;
+    height: 8.5rem;
+}
+
+.edufami--course__banner {
+    background: #c5c5c5;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    text-align: right;
+}
+
+.edufami--course__icon {
+    background: #ffffff;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    float: right;
+    position: relative;
+    top: -3.5rem;
+}
+
+.edufami--course-selected__box {
+    padding: 0;
+    margin: 0;
+    height: 44.5rem;
+}
+
+.edufami--course-selected__space-top {
+    height: 4.5rem;
+}
+
+.edufami--course-selected__space-mid {
+    height: 12rem;
+}
+
+.edufami--course-selected__banner {
+    padding: 1rem;
+    margin: 0 4rem;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 55%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 4.5rem;
+    border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.edufami--course-selected__info {
+    height: 21rem;
+    margin: 2rem 0.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.edufami--course-selected__info-text {
+    height: 16rem;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.edufami--course-selected__info-footer {
+    padding: .75rem 0 0 0;
+    height: 16rem;
+    text-align: center;
+}
+
+.edufami--course-unit-list__box {
+    height: 47rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.edufami--course-unit-list__title {
+    height: 2.5rem;
+    padding: 0.75rem;
+    margin: -1rem -1rem 1.5rem -1rem;
+    text-align: center;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 55%);
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    color: rgba(0, 125, 188, 1);
+}
+
+.edufami--course-unit_list__image-box {
+    height: 23rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+.edufami--course-unit_list__image-outer-circle {
+    background: #ffffff;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    box-shadow: 5px 10px 10px rgb(0 0 0 / 55%);
+}
+
+.edufami--course-unit_list__image-inner-circle {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 9rem;
+    -moz-border-radius: 9rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.edufami--course-unit-list__list-box {
+    height: 18rem;
+    margin: 2rem -1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    box-shadow: 0 -1px 5px rgb(0 0 0 / 55%);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.edufami--course-unit-list__list {
+    height: 18rem;
+    overflow: auto;
+}
+
+.edufami--course-unit-item__box {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.edufami--course-unit-item__title {
+    width: 80%;
+}
+
+.edufami--course-unit-item__status {
+    width: 20%;
+}
+
+.edufami--course-unit-selected__box {
+    height: 47rem;
+    margin: 0 -1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.edufami--course-unit-selected__title {
+    padding: 0.75rem;
+    margin: -1rem -1rem 1.5rem -1rem;
+    text-align: center;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 55%);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.edufami--lesson-list__info-box {
+    height: 19rem;
+    width: auto;
+    margin: 0;
+    padding: 1rem;
+}
+
+.edufami--lesson-list__image-box {
+    width: 40%;
+    float: left;
+}
+
+.edufami--lesson-list__image-outer-circle {
+    background: #ffffff;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem;
+    box-shadow: 5px 10px 10px rgb(0 0 0 / 55%);
+}
+
+.edufami--lesson-list__image-inner-circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.edufami--lesson-list__content-box {
+    width: 60%;
+    float: left;
+}
+
+.edufami--lesson-list__title-box {
+    float: left;
+}
+
+.edufami--lesson-list__inner-info-box {
+    float: left;
+}
+
+.edufami--bar {
+    height: 45px;
+    padding: 0.75rem;
+    background-color: rgba(0, 125, 188, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.edufami--bar .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.edufami--login__box {
+    padding: 0;
+    margin: 0;
+    height: 44.5rem;
+}
+
+.edufami--login__space-top {
+    height: 4.5rem;
+}
+
+.edufami--login__space-mid {
+    height: 12rem;
+}
+
+.edufami--login__banner {
+    padding: 1rem;
+    margin: 0 4rem;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 55%);
+    background-color: rgba(255, 255, 255, 1);
+    height: 4.5rem;
+    border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.edufami--login__info {
+    height: 21rem;
+    margin: 2rem 0.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.edufami--login__info-text {
+    height: 16rem;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.edufami--login__info-footer {
+    padding: .75rem 0 0 0;
+    height: 16rem;
+    text-align: center;
+}
+
+.edufami--main-nav__box {
+    padding: 1rem 1.75rem 2rem 1.75rem;
+    margin: -1rem -1rem 1.5rem -1rem;
+    text-align: center;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 55%);
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    color: rgba(0, 125, 188, 1);
+}
+
+.edufami--main-nav__link {
+    float: left;
+}
